@@ -13,12 +13,16 @@ Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Add Sourceberries to the Fermenter
      - Adds Wilden drops to the Crusher for bonemeal
      - Adds `forge:leather` compatibility to the Annotated Codex recipe
+     - Adds Magebloom to the Cloche
  - Create:
      - Adds Sphalerite mineral vein for Zinc from the Excavator
      - Adds Cinder Flour and Obsidian processing to the Crusher
  - Cultural Delights:
      - Adds Corn Kernels, Eggplant Seeds, and Cucumber Seeds to the Squeezer
-     - Adds Corn and Salmonberries to the Fermenter
+     - Adds Corn to the Fermenter
+     - Adds Cucumber, and Eggplant to the Cloche
+ - Delightful:
+     - Adds Salmonberries to the Fermenter
  - Farmer's Delight:
      - Adds soil compatibility with Rich Soil to the Cloche
  - Farmer's Respite
@@ -33,6 +37,7 @@ Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Quark:
      - Adds `forge:leather` support to the Bundle, Backpack, and Seed Pouch recipes
      - If Create is installed, allows the Squeezer to squeeze Ancient Fruit into Create experience nuggets
+     - Adds Charcoal Blocks to the Blast Furnace Fuel list
  - Roots:
      - Adds processing of Currants and Elderberries to the Fermenter
  - Supplementaries:
