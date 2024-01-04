@@ -5,12 +5,10 @@
       "conditions": [
         {
           "type": "forge:not",
-          "value": [
-            {
-              "type": "forge:tag_empty",
-              "tag": "forge:fruits/blackcurrant"
-            }
-          ]
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:fruits/blackcurrant"
+          }
         }
       ],
       "recipe": {

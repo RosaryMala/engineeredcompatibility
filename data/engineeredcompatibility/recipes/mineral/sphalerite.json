@@ -9,12 +9,10 @@
         },
         {
           "type": "forge:not",
-          "value": [
-            {
-              "type": "forge:mod_loaded",
-              "modid": "createaddition"
-            }
-          ]
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "createaddition"
+          }
         }
       ],
       "recipe": {
