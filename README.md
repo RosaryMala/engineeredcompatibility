@@ -1,5 +1,5 @@
 # Engineered Compatibility
-Datapack adding mod compat to Immersive Engineering machines &amp; products.
+Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
 
 ### Current Basegame Changes:
  - Adds `forge:leather` compatibility to all Vanilla recipes that use leather
@@ -23,6 +23,8 @@ Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Cucumber, and Eggplant to the Cloche
  - Delightful:
      - Adds Salmonberries to the Fermenter
+ - Engineer's Decor:
+     - Adds `forge:gravel` compatibility to Dense Grit Dirt and Dense Grit Sand
  - Every Compat:
      - Mods with EveryCompat bookshelves can have them processed in the Sawmill
  - Farmer's Delight:
