@@ -9,24 +9,24 @@
         }
       ],
       "recipe": {
-        "type":"immersiveengineering:cloche",
-        "input":{
-          "item":"minecraft:pumpkin_seeds"
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "minecraft:pumpkin_seeds"
         },
-        "render":{
-          "type":"stem",
-          "block":"minecraft:pumpkin"
+        "render": {
+          "type": "stem",
+          "block": "minecraft:pumpkin"
         },
-        "results":[
+        "results": [
           {
-            "item":"minecraft:pumpkin",
-            "count":2
+            "item": "minecraft:pumpkin",
+            "count": 1
           }
         ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
+        "soil": {
+          "item": "farmersdelight:rich_soil"
         },
-        "time":800
+        "time": 530
       }
     }
   ]

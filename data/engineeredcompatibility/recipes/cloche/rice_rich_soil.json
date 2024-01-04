@@ -20,13 +20,13 @@
         "results": [
           {
             "item": "farmersdelight:rice_panicle",
-            "count": 3
+            "count": 2
           }
         ],
         "soil": {
           "item": "farmersdelight:rich_soil"
         },
-        "time": 800
+        "time": 530
       }
     }
   ]

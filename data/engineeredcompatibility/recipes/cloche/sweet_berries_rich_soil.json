@@ -9,24 +9,24 @@
         }
       ],
       "recipe": {
-        "type":"immersiveengineering:cloche",
-        "input":{
-          "item":"minecraft:sweet_berries"
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "minecraft:sweet_berries"
         },
-        "render":{
-          "type":"crop",
-          "block":"minecraft:sweet_berry_bush"
+        "render": {
+          "type": "crop",
+          "block": "minecraft:sweet_berry_bush"
         },
-        "results":[
+        "results": [
           {
-            "count":3,
-            "item":"minecraft:sweet_berries"
+            "count": 2,
+            "item": "minecraft:sweet_berries"
           }
         ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
+        "soil": {
+          "item": "farmersdelight:rich_soil"
         },
-        "time":640
+        "time": 425
       }
     }
   ]

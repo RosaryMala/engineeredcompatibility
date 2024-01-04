@@ -23,17 +23,17 @@
         },
         "results": [
           {
-            "count": 3,
+            "count": 2,
             "item": "culturaldelights:cucumber"
           },
           {
             "item": "culturaldelights:cucumber_seeds"
           }
         ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
+        "soil": {
+          "item": "farmersdelight:rich_soil"
         },
-        "time":640
+        "time": 640
       }
     }
   ]

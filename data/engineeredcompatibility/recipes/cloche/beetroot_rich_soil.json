@@ -9,27 +9,27 @@
         }
       ],
       "recipe": {
-        "type":"immersiveengineering:cloche",
-        "input":{
-          "item":"minecraft:beetroot_seeds"
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "minecraft:beetroot_seeds"
         },
-        "render":{
-          "type":"crop",
-          "block":"minecraft:beetroots"
+        "render": {
+          "type": "crop",
+          "block": "minecraft:beetroots"
         },
-        "results":[
+        "results": [
           {
-            "count":3,
-            "item":"minecraft:beetroot"
+            "count": 2,
+            "item": "minecraft:beetroot"
           },
           {
-            "item":"minecraft:beetroot_seeds"
+            "item": "minecraft:beetroot_seeds"
           }
         ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
+        "soil": {
+          "item": "farmersdelight:rich_soil"
         },
-        "time":800
+        "time": 530
       }
     }
   ]

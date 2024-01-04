@@ -19,14 +19,14 @@
         },
         "results": [
           {
-            "item":"minecraft:bamboo",
-            "count":2
+            "item": "minecraft:bamboo",
+            "count": 1
            }
         ],
         "soil": {
           "item": "farmersdelight:rich_soil"
         },
-        "time": 560
+        "time": 370
       }
     }
   ]

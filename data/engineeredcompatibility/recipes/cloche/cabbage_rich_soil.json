@@ -20,7 +20,7 @@
         "results": [
           {
             "item": "farmersdelight:cabbage",
-            "count": 3
+            "count": 2
           },
           {
             "item": "farmersdelight:cabbage_seeds"
@@ -29,7 +29,7 @@
         "soil": {
           "item": "farmersdelight:rich_soil"
         },
-        "time": 800
+        "time": 530
       }
     }
   ]

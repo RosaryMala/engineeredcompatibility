@@ -24,13 +24,13 @@
         "results": [
           {
             "item": "ars_nouveau:magebloom",
-            "count": 2
+            "count": 1
           }
         ],
         "soil": {
           "item": "farmersdelight:rich_soil"
         },
-        "time": 800
+        "time": 530
       }
     }
   ]

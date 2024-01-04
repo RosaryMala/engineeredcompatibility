@@ -14,10 +14,14 @@
       ],
       "recipe": {
         "type": "immersiveengineering:cloche",
+        "render": {
+          "type": "crop",
+          "block": "delightful:salmonberry_bush"
+        },
         "results": [
           {
             "item": "delightful:salmonberries",
-            "count": 5
+            "count": 3
           }
         ],
         "input": {
@@ -26,11 +30,7 @@
         "soil": {
           "item": "farmersdelight:rich_soil"
         },
-        "time": 800,
-        "render": {
-          "type": "crop",
-          "block": "delightful:salmonberry_bush"
-        }
+        "time": 530
       }
     }
   ]
