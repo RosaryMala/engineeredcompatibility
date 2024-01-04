@@ -23,6 +23,8 @@ Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Cucumber, and Eggplant to the Cloche
  - Delightful:
      - Adds Salmonberries to the Fermenter
+ - Every Compat:
+     - Mods with EveryCompat bookshelves can have them processed in the Sawmill
  - Farmer's Delight:
      - Adds soil compatibility with Rich Soil to the Cloche
  - Farmer's Respite
@@ -37,7 +39,6 @@ Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Quark:
      - Adds `forge:leather` support to the Bundle, Backpack, and Seed Pouch recipes
      - If Create is installed, allows the Squeezer to squeeze Ancient Fruit into Create experience nuggets
-     - Adds Charcoal Blocks to the Blast Furnace Fuel list
  - Roots:
      - Adds processing of Currants and Elderberries to the Fermenter
  - Supplementaries:

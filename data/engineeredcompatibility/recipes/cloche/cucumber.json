@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "culturaldelights:cucumber_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "culturaldelights:cucumbers"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber_seeds"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 640
+}

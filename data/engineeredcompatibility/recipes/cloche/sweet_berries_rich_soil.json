@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:cloche",
+    "input":{
+        "item":"minecraft:sweet_berries"
+    },
+    "render":{
+        "type":"crop",
+        "block":"minecraft:sweet_berry_bush"
+    },
+    "results":[
+        {
+            "count":3,
+            "item":"minecraft:sweet_berries"
+        }
+    ],
+    "soil":{
+        "item":"farmersdelight:rich_soil"
+    },
+    "time":640
+}

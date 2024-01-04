@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "culturaldelights:eggplant_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "culturaldelights:eggplants"
+  },
+  "results": [
+    {
+      "count": 3,
+      "item": "culturaldelights:eggplant"
+    },
+    {
+      "item": "culturaldelights:eggplant_seeds"
+    }
+  ],
+  "soil":{
+    "item":"farmersdelight:rich_soil"
+  },
+  "time":640
+}

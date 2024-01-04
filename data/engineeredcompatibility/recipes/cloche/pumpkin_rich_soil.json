@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:cloche",
+    "input":{
+        "item":"minecraft:pumpkin_seeds"
+    },
+    "render":{
+        "type":"stem",
+        "block":"minecraft:pumpkin"
+    },
+    "results":[
+        {
+            "item":"minecraft:pumpkin",
+            "count":2
+        }
+    ],
+    "soil":{
+        "item":"farmersdelight:rich_soil"
+    },
+    "time":800
+}
