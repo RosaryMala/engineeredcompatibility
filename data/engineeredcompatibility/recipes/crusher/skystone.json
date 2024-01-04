@@ -1,14 +1,27 @@
 {
-  "type": "immersiveengineering:crusher",
-  "energy": 1600,
-  "input": {
-    "item": "ae2:sky_stone_block"
-  },
-  "result": {
-    "base_ingredient": {
-      "item": "ae2:sky_dust"
-    },
-    "count": 1
-  },
-  "secondaries": []
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ae2"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 1600,
+        "input": {
+          "item": "ae2:sky_stone_block"
+        },
+        "result": {
+          "base_ingredient": {
+            "item": "ae2:sky_dust"
+          },
+          "count": 1
+        },
+        "secondaries": []
+      }
+    }
+  ]
 }

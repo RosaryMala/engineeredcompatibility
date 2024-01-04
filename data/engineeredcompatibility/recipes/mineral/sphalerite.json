@@ -1,48 +1,70 @@
 {
-  "type": "immersiveengineering:mineral_mix",
-  "dimensions": [
-    "minecraft:overworld"
-  ],
-  "fail_chance": 0.05,
-  "ores": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "chance": 0.4,
-      "output": {
-        "tag": "forge:ores/zinc"
-      }
-    },
-    {
-      "chance": 0.3,
-      "output": {
-        "tag": "forge:dusts/sulfur"
-      }
-    },
-    {
-      "chance": 0.1,
-      "output": {
-        "tag": "forge:fluxes/calcite"
-      }
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:not",
+          "value": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "createaddition"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:mineral_mix",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "fail_chance": 0.05,
+        "ores": [
+          {
+            "chance": 0.4,
+            "output": {
+              "tag": "forge:ores/zinc"
+            }
+          },
+          {
+            "chance": 0.3,
+            "output": {
+              "tag": "forge:dusts/sulfur"
+            }
+          },
+          {
+            "chance": 0.1,
+            "output": {
+              "tag": "forge:fluxes/calcite"
+            }
+          }
+        ],
+        "spoils": [
+          {
+            "chance": 0.2,
+            "output": {
+              "item": "minecraft:gravel"
+            }
+          },
+          {
+            "chance": 0.5,
+            "output": {
+              "item": "minecraft:cobblestone"
+            }
+          },
+          {
+            "chance": 0.3,
+            "output": {
+              "item": "minecraft:cobbled_deepslate"
+            }
+          }
+        ],
+        "weight": 30
+      } 
     }
-  ],
-  "spoils": [
-    {
-      "chance": 0.2,
-      "output": {
-        "item": "minecraft:gravel"
-      }
-    },
-    {
-      "chance": 0.5,
-      "output": {
-        "item": "minecraft:cobblestone"
-      }
-    },
-    {
-      "chance": 0.3,
-      "output": {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    }
-  ],
-  "weight": 30
-} 
+  ]
+}

@@ -1,20 +1,33 @@
 {
-  "type": "immersiveengineering:crusher",
-  "energy": 2400,
-  "input": {
-    "tag": "forge:gems/amethyst"
-  },
-  "result": {
-    "base_ingredient": {
-      "tag": "forge:dusts/amethyst"
-    },
-    "count": 4
-  },
-  "secondaries": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "chance": 0.5,
-      "output": {
-        "tag": "forge:dusts/amethyst"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexcasting"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 2400,
+        "input": {
+          "tag": "forge:gems/amethyst"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:dusts/amethyst"
+          },
+          "count": 4
+        },
+        "secondaries": [
+          {
+            "chance": 0.5,
+            "output": {
+              "tag": "forge:dusts/amethyst"
+            }
+          }
+        ]
       }
     }
   ]

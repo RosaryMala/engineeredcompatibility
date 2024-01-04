@@ -1,11 +1,29 @@
 {
-  "type": "immersiveengineering:fermenter",
-  "energy": 6400,
-  "fluid": {
-    "amount": 100,
-    "fluid": "immersiveengineering:ethanol"
-  },
-  "input": {
-    "tag": "forge:crops/corn"
-  }
-} 
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": [
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:crops/corn"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 100,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "tag": "forge:crops/corn"
+        }
+      }
+    }
+  ]
+}

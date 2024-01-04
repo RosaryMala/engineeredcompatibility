@@ -1,26 +1,39 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "000",
-    "1 1",
-    "000"
-  ],
-  "key": {
-    "0": {
-      "tag": "minecraft:wooden_slabs"
-    },
-    "1": {
-      "tag": "forge:leather"
-    }
-  },
-  "result": {
-    "item": "supplementaries:bellows",
-    "count": 1
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "supplementaries:flag",
-      "flag": "bellows"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "supplementaries"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "000",
+          "1 1",
+          "000"
+        ],
+        "key": {
+          "0": {
+            "tag": "minecraft:wooden_slabs"
+          },
+          "1": {
+            "tag": "forge:leather"
+          }
+        },
+        "result": {
+          "item": "supplementaries:bellows",
+          "count": 1
+        },
+        "conditions": [
+          {
+            "type": "supplementaries:flag",
+            "flag": "bellows"
+          }
+        ]
+      }
     }
   ]
 }

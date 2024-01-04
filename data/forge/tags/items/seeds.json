@@ -1,7 +1,16 @@
 {
   "values": [
-    "culturaldelights:eggplant_seeds",
-    "culturaldelights:cucumber_seeds",
-    "culturaldelights:corn_kernels"
+    {
+      "id": "culturaldelights:eggplant_seeds",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:cucumber_seeds",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:corn_kernels",
+      "required": false
+    } 
   ]
 }

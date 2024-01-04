@@ -1,19 +1,36 @@
 {
-  "type": "immersiveengineering:cloche",
-  "input": {
-    "item": "ars_nouveau:magebloom_crop"
-  },
-  "render": {
-    "type": "crop",
-    "block": "ars_nouveau:magebloom_crop"
-  },
-  "results": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "item": "ars_nouveau:magebloom"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "ars_nouveau:magebloom_crop"
+        },
+        "render": {
+          "type": "crop",
+          "block": "ars_nouveau:magebloom_crop"
+        },
+        "results": [
+          {
+            "item": "ars_nouveau:magebloom"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
     }
-  ],
-  "soil": {
-    "item": "minecraft:dirt"
-  },
-  "time": 800
+  ]
 }

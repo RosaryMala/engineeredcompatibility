@@ -1,13 +1,30 @@
 {
-  "type": "immersiveengineering:squeezer",
-  "energy": 6400,
-  "result": {
-    "base_ingredient": {
-      "item": "create:experience_nugget"
-    },
-    "count": 4
-  },
-  "input": {
-    "item": "quark:ancient_fruit"
-  }
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:squeezer",
+        "energy": 6400,
+        "result": {
+          "base_ingredient": {
+            "item": "create:experience_nugget"
+          },
+          "count": 4
+        },
+        "input": {
+          "item": "quark:ancient_fruit"
+        }
+      }
+    }
+  ]
 }

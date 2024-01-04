@@ -1,11 +1,29 @@
 {
-  "type": "immersiveengineering:fermenter",
-  "energy": 6400,
-  "fluid": {
-    "amount": 60,
-    "fluid": "immersiveengineering:ethanol"
-  },
-  "input": {
-    "tag": "forge:fruits/elderberry"
-  }
-} 
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": [
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:fruits/elderberry"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 60,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "tag": "forge:fruits/elderberry"
+        }
+      }
+    }
+  ]
+}

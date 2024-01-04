@@ -1,18 +1,31 @@
 {
-  "type": "immersiveengineering:sawmill",
-  "energy": 1600,
-  "input": {
-    "item": "homespun:olive_stairs"
-  },
-  "result": {
-    "item": "homespun:olive_planks"
-  },
-  "secondaries": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "homespun"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "homespun:olive_stairs"
+        },
+        "result": {
+          "item": "homespun:olive_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
     }
   ]
 }

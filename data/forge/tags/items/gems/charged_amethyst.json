@@ -1,6 +1,9 @@
 {
   "values": [
-    "hexcasting:charged_amethyst"
+    {
+      "id": "hexcasting:charged_amethyst",
+      "required": false
+    }
   ]
 }
  

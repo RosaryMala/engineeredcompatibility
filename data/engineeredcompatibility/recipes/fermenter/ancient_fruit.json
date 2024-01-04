@@ -1,11 +1,24 @@
 {
-  "type": "immersiveengineering:fermenter",
-  "energy": 6400,
-  "fluid": {
-    "amount": 160,
-    "fluid": "immersiveengineering:ethanol"
-  },
-  "input": {
-    "item": "quark:ancient_fruit"
-  }
-} 
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 160,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "item": "quark:ancient_fruit"
+        }
+      } 
+    }
+  ]
+}

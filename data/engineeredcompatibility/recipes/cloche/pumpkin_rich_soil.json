@@ -1,20 +1,33 @@
 {
-    "type":"immersiveengineering:cloche",
-    "input":{
-        "item":"minecraft:pumpkin_seeds"
-    },
-    "render":{
-        "type":"stem",
-        "block":"minecraft:pumpkin"
-    },
-    "results":[
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
         {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type":"immersiveengineering:cloche",
+        "input":{
+          "item":"minecraft:pumpkin_seeds"
+        },
+        "render":{
+          "type":"stem",
+          "block":"minecraft:pumpkin"
+        },
+        "results":[
+          {
             "item":"minecraft:pumpkin",
             "count":2
-        }
-    ],
-    "soil":{
-        "item":"farmersdelight:rich_soil"
-    },
-    "time":800
+          }
+        ],
+        "soil":{
+          "item":"farmersdelight:rich_soil"
+        },
+        "time":800
+      }
+    }
+  ]
 }

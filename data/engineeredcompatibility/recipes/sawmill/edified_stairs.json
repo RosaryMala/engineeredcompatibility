@@ -1,18 +1,31 @@
 {
-  "type": "immersiveengineering:sawmill",
-  "energy": 1600,
-  "input": {
-    "item": "hexcasting:edified_stairs"
-  },
-  "result": {
-    "item": "hexcasting:edified_planks"
-  },
-  "secondaries": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexcasting"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "hexcasting:edified_stairs"
+        },
+        "result": {
+          "item": "hexcasting:edified_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
     }
   ]
 }

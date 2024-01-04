@@ -1,20 +1,33 @@
 {
-    "type":"immersiveengineering:cloche",
-    "input":{
-        "item":"minecraft:sweet_berries"
-    },
-    "render":{
-        "type":"crop",
-        "block":"minecraft:sweet_berry_bush"
-    },
-    "results":[
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
         {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type":"immersiveengineering:cloche",
+        "input":{
+          "item":"minecraft:sweet_berries"
+        },
+        "render":{
+          "type":"crop",
+          "block":"minecraft:sweet_berry_bush"
+        },
+        "results":[
+          {
             "count":3,
             "item":"minecraft:sweet_berries"
-        }
-    ],
-    "soil":{
-        "item":"farmersdelight:rich_soil"
-    },
-    "time":640
+          }
+        ],
+        "soil":{
+          "item":"farmersdelight:rich_soil"
+        },
+        "time":640
+      }
+    }
+  ]
 }

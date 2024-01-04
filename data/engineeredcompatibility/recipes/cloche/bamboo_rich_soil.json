@@ -1,20 +1,33 @@
 {
-  "type": "immersiveengineering:cloche",
-  "input": {
-    "item": "minecraft:bamboo"
-  },
-  "render": {
-    "type": "stacking",
-    "block": "minecraft:bamboo"
-  },
-  "results": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "item":"minecraft:bamboo",
-      "count":2
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "minecraft:bamboo"
+        },
+        "render": {
+          "type": "stacking",
+          "block": "minecraft:bamboo"
+        },
+        "results": [
+          {
+            "item":"minecraft:bamboo",
+            "count":2
+           }
+        ],
+        "soil": {
+          "item": "farmersdelight:rich_soil"
+        },
+        "time": 560
+      }
     }
-  ],
-  "soil": {
-    "item": "farmersdelight:rich_soil"
-  },
-  "time": 560
+  ]
 }

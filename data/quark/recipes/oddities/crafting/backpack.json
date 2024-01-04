@@ -1,41 +1,54 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "LRL",
-    "LCL",
-    "LIL"
-  ],
-  "key": {
-    "L": {
-      "tag": "forge:leather"
-    },
-    "R": {
-      "item": "quark:ravager_hide"
-    },
-    "C": {
-      "tag": "forge:chests/wooden"
-    },
-    "I": {
-      "tag": "forge:ingots/iron"
-    }
-  },
-  "result": {
-    "item": "quark:backpack",
-    "count": 1
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:and",
-      "values": [
+      "conditions": [
         {
-          "type": "quark:flag",
-          "flag": "ravager_hide"
-        },
-        {
-          "type": "quark:flag",
-          "flag": "backpack"
+          "type": "forge:mod_loaded",
+          "modid": "quark"
         }
-      ]
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "LRL",
+          "LCL",
+          "LIL"
+        ],
+        "key": {
+          "L": {
+            "tag": "forge:leather"
+          },
+          "R": {
+            "item": "quark:ravager_hide"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "I": {
+            "tag": "forge:ingots/iron"
+          }
+        },
+        "result": {
+          "item": "quark:backpack",
+          "count": 1
+        },
+        "conditions": [
+          {
+            "type": "forge:and",
+            "values": [
+              {
+                "type": "quark:flag",
+                "flag": "ravager_hide"
+              },
+              {
+                "type": "quark:flag",
+                "flag": "backpack"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

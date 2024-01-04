@@ -1,11 +1,24 @@
 {
-  "type": "immersiveengineering:squeezer",
-  "energy": 6400,
-  "fluid": {
-    "amount": 80,
-    "fluid": "immersiveengineering:plantoil"
-  },
-  "input": {
-    "item": "culturaldelights:cucumber_seeds"
-  }
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:squeezer",
+        "energy": 6400,
+        "fluid": {
+          "amount": 80,
+          "fluid": "immersiveengineering:plantoil"
+        },
+        "input": {
+          "item": "culturaldelights:cucumber_seeds"
+        }
+      }
+    }
+  ]
 }

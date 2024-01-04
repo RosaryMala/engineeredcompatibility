@@ -1,14 +1,32 @@
 {
-  "type": "immersiveengineering:crusher",
-  "energy": 2400,
-  "input": {
-    "tag": "forge:gems/fluix"
-  },
-  "result": {
-    "base_ingredient": {
-      "tag": "forge:dusts/fluix"
-    },
-    "count": 1
-  },
-  "secondaries": [ ]
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": [
+            {
+              "type": "forge:tag_empty",
+              "tag": "forge:dusts/fluix0"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 2400,
+        "input": {
+          "tag": "forge:gems/fluix"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:dusts/fluix"
+          },
+          "count": 1
+        },
+        "secondaries": [ ]
+      }
+    }
+  ]
 }

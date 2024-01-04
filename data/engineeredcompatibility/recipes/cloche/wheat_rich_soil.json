@@ -1,23 +1,36 @@
 {
-    "type":"immersiveengineering:cloche",
-    "input":{
-        "item":"minecraft:wheat_seeds"
-    },
-    "render":{
-        "type":"crop",
-        "block":"minecraft:wheat"
-    },
-    "results":[
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
         {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type":"immersiveengineering:cloche",
+        "input":{
+          "item":"minecraft:wheat_seeds"
+        },
+        "render":{
+          "type":"crop",
+          "block":"minecraft:wheat"
+        },
+        "results":[
+          {
             "count":3,
             "item":"minecraft:wheat"
-        },
-        {
+          },
+          {
             "item":"minecraft:wheat_seeds"
-        }
-    ],
-    "soil":{
-        "item":"farmersdelight:rich_soil"
-    },
-    "time":640
+          }
+        ],
+        "soil":{
+          "item":"farmersdelight:rich_soil"
+        },
+        "time":640
+      }
+    }
+  ]
 }

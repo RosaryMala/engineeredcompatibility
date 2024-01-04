@@ -1,4 +1,14 @@
-{   
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {   
         "type": "immersiveengineering:cloche",
         "input": {
           "item": "minecraft:carrot"
@@ -17,4 +27,7 @@
           "item": "farmersdelight:rich_soil"
         },
         "time": 800
+      }
     }
+  ]
+}

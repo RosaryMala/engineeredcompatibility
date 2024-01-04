@@ -1,6 +1,9 @@
 {
   "values": [
-    "create:powdered_obsidian"
+    {
+      "id": "create:powdered_obsidian",
+      "required": false
+    }
   ]
 }
  

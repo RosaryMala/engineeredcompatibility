@@ -1,26 +1,43 @@
 {
-  "type": "immersiveengineering:sawmill",
-  "energy": 1600,
-  "input": {
-    "item": "everycomp:q/ars_nouveau/archwood_bookshelf"
-  },
-  "result": {
-    "count": 4,
-    "item": "ars_nouveau:archwood_planks"
-  },
-  "secondaries": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
-    },
-    {
-      "output": {
-        "count": 3,
-        "item": "minecraft:book"
-      },
-      "stripping": false
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "everycomp"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "everycomp:q/ars_nouveau/archwood_bookshelf"
+        },
+        "result": {
+          "count": 4,
+          "item": "ars_nouveau:archwood_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          },
+          {
+            "output": {
+              "count": 3,
+              "item": "minecraft:book"
+            },
+            "stripping": false
+          }
+        ]
+      }
     }
   ]
 }

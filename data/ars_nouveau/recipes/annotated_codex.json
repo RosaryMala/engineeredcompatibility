@@ -1,14 +1,27 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "item": "ars_nouveau:blank_parchment"
-    },
-    {
-      "tag": "forge:leather"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "ars_nouveau:blank_parchment"
+          },
+          {
+            "tag": "forge:leather"
+          }
+        ],
+        "result": {
+          "item": "ars_nouveau:annotated_codex"
+        }
+      }
     }
-  ],
-  "result": {
-    "item": "ars_nouveau:annotated_codex"
-  }
+  ]
 }

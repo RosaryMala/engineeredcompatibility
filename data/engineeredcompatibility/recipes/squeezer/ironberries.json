@@ -1,11 +1,24 @@
 {
-  "type": "immersiveengineering:squeezer",
-  "energy": 6400,
-  "fluid": {
-    "amount": 125,
-    "fluid": "homespun:ironberry_juice"
-  },
-  "input": {
-    "item": "homespun:ironberries"
-  }
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "homespun"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:squeezer",
+        "energy": 6400,
+        "fluid": {
+          "amount": 125,
+          "fluid": "homespun:ironberry_juice"
+        },
+        "input": {
+          "item": "homespun:ironberries"
+        }
+      }
+    }
+  ]
 }

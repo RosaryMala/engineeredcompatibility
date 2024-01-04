@@ -1,26 +1,44 @@
+
 {
-  "type": "immersiveengineering:sawmill",
-  "energy": 1600,
-  "input": {
-    "item": "everycomp:q/hexcasting/edified_bookshelf"
-  },
-  "result": {
-    "count": 4,
-    "item": "hexcasting:edified_planks"
-  },
-  "secondaries": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
-    },
-    {
-      "output": {
-        "count": 3,
-        "item": "minecraft:book"
-      },
-      "stripping": false
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexcasting"
+        }
+        {
+          "type": "forge:mod_loaded",
+          "modid": "everycomp"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "everycomp:q/hexcasting/edified_bookshelf"
+        },
+        "result": {
+          "count": 4,
+          "item": "hexcasting:edified_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          },
+          {
+            "output": {
+              "count": 3,
+              "item": "minecraft:book"
+            },
+            "stripping": false
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,23 +1,36 @@
 {
-  "type": "immersiveengineering:cloche",
-  "input": {
-    "item": "culturaldelights:cucumber_seeds"
-  },
-  "render": {
-    "type": "crop",
-    "block": "culturaldelights:cucumbers"
-  },
-  "results": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "count": 2,
-      "item": "culturaldelights:cucumber"
-    },
-    {
-      "item": "culturaldelights:cucumber_seeds"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "culturaldelights:cucumber_seeds"
+        },
+        "render": {
+          "type": "crop",
+          "block": "culturaldelights:cucumbers"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "culturaldelights:cucumber"
+          },
+          {
+            "item": "culturaldelights:cucumber_seeds"
+          }
+        ],
+        "soil":{
+          "item":"minecraft:dirt"
+        },
+        "time":640
+      }
     }
-  ],
-  "soil": {
-    "item": "minecraft:dirt"
-  },
-  "time": 640
+  ]
 }
