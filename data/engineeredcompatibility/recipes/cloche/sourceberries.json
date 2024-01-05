@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "ars_nouveau:source_berry"
+        },
+        "render": {
+          "type": "crop",
+          "block": "ars_nouveau:sourceberry_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "ars_nouveau:source_berry"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 640
+      }
+    }
+  ]
+}
