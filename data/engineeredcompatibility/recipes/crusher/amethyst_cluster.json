@@ -35,6 +35,42 @@
           }
         ]
       }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "hexcasting"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 2400,
+        "input": {
+          "tag": "forge:clusters/amethyst"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:gems/amethyst"
+          },
+          "count": 7
+        },
+        "secondaries": [
+          {
+            "chance": 0.5,
+            "output": {
+              "tag": "forge:gems/amethyst"
+            }
+          }
+        ]
+      }
     }
   ]
 }
