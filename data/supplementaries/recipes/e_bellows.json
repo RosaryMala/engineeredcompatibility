@@ -20,7 +20,7 @@
             "tag": "minecraft:wooden_slabs"
           },
           "1": {
-            "tag": "forge:leather"
+            "item": "immersiveengineering:ersatz_leather"
           }
         },
         "result": {

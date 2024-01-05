@@ -11,28 +11,31 @@
       "recipe": {
         "type": "minecraft:crafting_shaped",
         "pattern": [
-          "SHS",
-          "H H",
-          "HHH"
+          " S ",
+          "HXH",
+          " H "
         ],
         "key": {
           "S": {
-            "item": "minecraft:string"
+            "tag": "forge:string"
+          },
+          "X": {
+            "tag": "quark:seed_pouch_holdable"
           },
           "H": {
-            "tag": "forge:leather"
+            "item": "immersiveengineering:ersatz_leather"
           }
         },
         "result": {
-          "item": "minecraft:bundle"
+          "item": "quark:seed_pouch"
         },
         "conditions": [
           {
             "type": "quark:flag",
-            "flag": "bundle_recipe"
+            "flag": "seed_pouch"
           }
         ]
-      } 
+      }
     }
   ]
 }

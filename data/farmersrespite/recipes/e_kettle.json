@@ -20,7 +20,7 @@
             "item": "minecraft:stick"
           },
           "l": {
-            "tag": "forge:leather"
+            "item": "immersiveengineering:ersatz_leather"
           },
           "b": {
             "item": "minecraft:copper_ingot"
