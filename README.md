@@ -11,6 +11,7 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Ars Nouveau:
      - Adds Archwood woodset to the Sawmill
      - Add Sourceberries to the Fermenter
+     - Adds Sourceberries to the Cloche
      - Adds Wilden drops to the Crusher for bonemeal
      - Adds Magebloom to the Cloche
  - Create:
