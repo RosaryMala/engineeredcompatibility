@@ -12,7 +12,6 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Archwood woodset to the Sawmill
      - Add Sourceberries to the Fermenter
      - Adds Wilden drops to the Crusher for bonemeal
-     - Adds `forge:leather` compatibility to the Annotated Codex recipe
      - Adds Magebloom to the Cloche
  - Create:
      - Adds Sphalerite mineral vein for Zinc from the Excavator
@@ -31,7 +30,6 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds soil compatibility with Rich Soil to the Cloche
  - Farmer's Respite
      - Adds Tea Seeds to the Squeezer
-     - Adds `forge:leather` support to the Kettle recipe 
  - Hexcasting:
      - Adds Edified Wood woodset to the Sawmill
      - Adds Amethyst crushing to the Crusher
@@ -39,9 +37,6 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Ironwood and Olive woodsets to the Sawmill
      - Adds Ironberry juicing to the Squeezer
  - Quark:
-     - Adds `forge:leather` support to the Bundle, Backpack, and Seed Pouch recipes
      - If Create is installed, allows the Squeezer to squeeze Ancient Fruit into Create experience nuggets
  - Roots:
      - Adds processing of Currants and Elderberries to the Fermenter
- - Supplementaries:
-     - Adds `forge:leather` support to the Bellows
