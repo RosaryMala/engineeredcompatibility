@@ -37,6 +37,10 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Homespun:
      - Adds Ironwood and Olive woodsets to the Sawmill
      - Adds Ironberry juicing to the Squeezer
+ - Liquid Burner:
+     - Adds Biodiesel, Sulfurized Diesel, Diesel, Kerosene, Naphtha, Benzene, and Gasoline as fuels for the Liquid Burner
+     - Adds Napalm as a superheat fuel for the Liquid Burner
+     - Burn times range from ~11000t for a bucket of low-quality fuels to ~25000t for a bucket of napalm
  - Quark:
      - If Create is installed, allows the Squeezer to squeeze Ancient Fruit into Create experience nuggets
  - Roots:
