@@ -1,0 +1,6 @@
+{
+  "type": "liquidburner:liquidburning",
+  "fluid": "immersivepetroleum:napalm",
+  "burntime": "0",
+  "superheattime" : "24480"
+}

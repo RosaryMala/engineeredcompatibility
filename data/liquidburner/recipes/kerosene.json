@@ -1,0 +1,6 @@
+{
+  "type": "liquidburner:liquidburning",
+  "fluid": "immersivepetroleum:kerosene",
+  "burntime": "12492",
+  "superheattime" : "0"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "liquidburner:liquidburning",
+  "fluid": "immersivepetroleum:sulfurized_diesel",
+  "burntime": "14310",
+  "superheattime" : "0"
+}
