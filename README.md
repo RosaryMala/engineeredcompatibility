@@ -17,6 +17,7 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Create:
      - Adds Sphalerite mineral vein for Zinc from the Excavator
      - Adds Cinder Flour and Obsidian processing to the Crusher
+     - Adds Slag Gravel processing to the Crushing Wheels
  - Cultural Delights:
      - Adds Corn Kernels, Eggplant Seeds, and Cucumber Seeds to the Squeezer
      - Adds Corn to the Fermenter
