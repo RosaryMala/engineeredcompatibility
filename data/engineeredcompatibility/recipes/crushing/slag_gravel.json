@@ -1,16 +1,29 @@
 {
-  "type": "create:crushing",
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "tag": "forge:slag"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "recipe": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "forge:slag"
+          }
+        ],
+        "results": [
+          {
+            "item": "immersiveengineering:slag_gravel",
+            "count": 1,
+            "chance": 1
+          }
+        ],
+        "processingTime": 300
+      }
     }
-  ],
-  "results": [
-    {
-      "item": "immersiveengineering:slag_gravel",
-      "count": 1,
-      "chance": 1
-    }
-  ],
-  "processingTime": 300
+  ]
 }
