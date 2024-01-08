@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "nethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "minecraft:nether_wart"
+        },
+        "render": {
+          "type": "crop",
+          "block": "minecraft:nether_wart"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "minecraft:nether_wart"
+          }
+        ],
+        "soil": {
+          "item": "nethersdelight:rich_soul_soil"
+        },
+        "time": 530
+      }
+    }
+  ]
+}
