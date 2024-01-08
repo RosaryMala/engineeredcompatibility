@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "botania:orange_petal"
+        },
+        "render": {
+          "type": "generic",
+          "block": "botania:orange_mystical_flower"
+        },
+        "results": [
+          {
+            "item": "botania:orange_petal"
+          }
+        ],
+        "soil":{
+          "item":"minecraft:dirt"
+        },
+        "time":480
+      }
+    }
+  ]
+}
