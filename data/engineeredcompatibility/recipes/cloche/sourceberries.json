@@ -11,7 +11,7 @@
       "recipe": {
         "type": "immersiveengineering:cloche",
         "input": {
-          "item": "ars_nouveau:source_berry"
+          "item": "ars_nouveau:sourceberry_bush"
         },
         "render": {
           "type": "crop",
@@ -20,7 +20,7 @@
         "results": [
           {
             "count": 2,
-            "item": "ars_nouveau:source_berry"
+            "item": "ars_nouveau:sourceberry_bush"
           }
         ],
         "soil": {
