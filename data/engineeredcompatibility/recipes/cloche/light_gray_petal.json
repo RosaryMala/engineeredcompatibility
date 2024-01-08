@@ -19,14 +19,13 @@
         },
         "results": [
           {
-            "count": 2,
             "item": "botania:light_gray_petal"
           }
         ],
         "soil":{
           "item":"minecraft:dirt"
         },
-        "time":640
+        "time":480
       }
     }
   ]
