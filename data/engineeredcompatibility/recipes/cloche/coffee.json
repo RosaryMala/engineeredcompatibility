@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "coffee_delight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "coffee_delight:coffee_berries"
+        },
+        "render": {
+          "type": "crop",
+          "block": "coffee_delight:coffee_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "coffee_delight:coffee_berries"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 560
+      }
+    }
+  ]
+}
