@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "botania:cyan_petal"
+        },
+        "render": {
+          "type": "generic",
+          "block": "botania:cyan_mystical_flower"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "botania:cyan_petal"
+          }
+        ],
+        "soil":{
+          "item":"minecraft:dirt"
+        },
+        "time":640
+      }
+    }
+  ]
+}
