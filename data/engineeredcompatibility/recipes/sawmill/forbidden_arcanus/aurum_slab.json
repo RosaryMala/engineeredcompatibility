@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forbidden_arcanus"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 800,
+        "input": {
+          "item": "forbidden_arcanus:aurum_planks"
+        },
+        "result": {
+          "count": 2,
+          "item": "forbidden_arcanus:aurum_slab"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}
