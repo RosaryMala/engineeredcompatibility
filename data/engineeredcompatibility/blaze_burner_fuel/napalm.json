@@ -1,0 +1,23 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "createliquidfuel"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersivepetroleum"
+        }
+      ],
+      "recipe": {
+        "fluid": "immersivepetroleum:napalm",
+        "burntime": "25",
+        "amountConsumePerTick" : "1",
+        "superHeat": true
+      }
+    }
+  ]
+}

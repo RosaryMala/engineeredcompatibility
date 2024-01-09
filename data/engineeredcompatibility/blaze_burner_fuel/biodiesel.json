@@ -1,0 +1,18 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "createliquidfuel"
+        }
+      ],
+      "recipe": {
+        "fluid": "immersiveengineering:biodiesel",
+        "burntime": "11",
+        "amountConsumePerTick" : "1"
+      }
+    }
+  ]
+}

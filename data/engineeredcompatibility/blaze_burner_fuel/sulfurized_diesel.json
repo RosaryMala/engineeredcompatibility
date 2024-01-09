@@ -1,0 +1,22 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "createliquidfuel"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "immersivepetroleum"
+        }
+      ],
+      "recipe": {
+        "fluid": "immersivepetroleum:sulfurized_diesel",
+        "burntime": "14",
+        "amountConsumePerTick" : "1"
+      }
+    }
+  ]
+}
