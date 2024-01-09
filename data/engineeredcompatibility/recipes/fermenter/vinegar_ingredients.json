@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:vinegar_ingredients"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 80,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "tag": "forge:vinegar_ingredients"
+        }
+      }
+    }
+  ]
+}
