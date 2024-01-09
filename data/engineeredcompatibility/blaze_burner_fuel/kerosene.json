@@ -1,22 +1,5 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
-    {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "createliquidfuel"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "immersivepetroleum"
-        }
-      ],
-      "recipe": {
-        "fluid": "immersivepetroleum:kerosene",
-        "burntime": "13",
-        "amountConsumePerTick" : "1"
-      }
-    }
-  ]
+  "fluid": "immersivepetroleum:kerosene",
+  "burntime": "12",
+  "amountConsumePerTick" : "1"
 }
