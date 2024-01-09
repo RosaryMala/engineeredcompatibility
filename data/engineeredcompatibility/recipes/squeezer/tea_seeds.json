@@ -4,8 +4,11 @@
     {
       "conditions": [
         {
-          "type": "forge:mod_loaded",
-          "modid": "farmersrespite"
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:seeds/tea"
+          }
         }
       ],
       "recipe": {
@@ -16,7 +19,7 @@
           "fluid": "immersiveengineering:plantoil"
         },
         "input": {
-          "item": "farmersrespite:tea_seeds"
+          "tag": "forge:seeds/tea"
         }
       }
     }

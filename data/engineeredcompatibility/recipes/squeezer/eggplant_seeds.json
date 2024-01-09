@@ -4,8 +4,11 @@
     {
       "conditions": [
         {
-          "type": "forge:mod_loaded",
-          "modid": "culturaldelights"
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:seeds/eggplant"
+          }
         }
       ],
       "recipe": {
@@ -16,7 +19,7 @@
           "fluid": "immersiveengineering:plantoil"
         },
         "input": {
-          "item": "culturaldelights:eggplant_seeds"
+          "tag": "forge:seeds/eggplant"
         }
       }
     }
