@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "botania:green_petal"
+        },
+        "render": {
+          "type": "generic",
+          "block": "botania:green_mystical_flower"
+        },
+        "results": [
+          {
+            "item": "botania:green_petal"
+          }
+        ],
+        "soil":{
+          "item":"minecraft:dirt"
+        },
+        "time":480
+      }
+    }
+  ]
+}
