@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:gems/arcane_crystal"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/arcane_crystal"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 2400,
+        "input": {
+          "tag": "forge:gems/arcane_crystal"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:dusts/arcane_crystal"
+          }
+        },
+        "secondaries": [
+          {
+            "chance": 0.125,
+            "output": {
+              "tag": "forge:dusts/arcane_crystal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

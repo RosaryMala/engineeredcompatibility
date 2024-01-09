@@ -1,0 +1,44 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:sandstone/soulless"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:sand/soulless"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 3200,
+        "input": {
+          "tag": "forge:sandstone/soulless"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:sand/soulless"
+          },
+          "count": 2
+        },
+        "secondaries": [
+          {
+            "chance": 0.875,
+            "output": {
+              "tag": "forge:dusts/saltpeter"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
