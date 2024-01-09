@@ -1,11 +1,37 @@
 # Engineered Compatibility
 Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
 
-### Current Basegame Changes:
+### Basegame Changes:
  - Adds `forge:leather` compatibility to all Vanilla recipes that use leather
  - Adds `forge:gravel` compatibility to all Vanilla recipes that use gravel
  - Adds a logs-to-sawdust Crusher recipe
-### Currently Supported Mods:
+### 1.20.1 Additional Supported Mods:
+ - Blue Skies:
+     - Adds Bluebright, Starlit, Frostbright, Comet, Lunar, Maple, Dusk, and Crystallized woodsets to the Sawmill
+     - Adds Midnight and Crystal sandstone crushing to the Crusher
+ -  Botania:
+     - Adds Mystical Flowers to the Cloche
+     - Adds Livingwood and Dreamwood woodsets to the Sawmill
+ -  Coffee Delight:
+     - Adds Coffee Berries to the Cloche
+ -  Deeper & Darker:
+     - Adds Echo woodset to the Sawmill 
+ -  Eidolon:
+     - Adds Illwood woodset to the Sawmill 
+ -  Forbidden & Arcanus:
+     - Adds Aurum, Fungyss, and Edelwood woodsets to the Sawmill
+     - Adds Soulless Sandstone and Arcane Crystal crushing to the Crusher
+     - Adds Arcane Bone Meal to the Cloche
+ -  Miner's Delight
+     - Adds Cave Carrot to the Cloche
+ - Nether's Delight:
+     - Adds Rich Soul Soil compat to basegame recipes in the Cloche
+ - Undergarden:
+     - Adds Wigglewood, Smogstem, and Grongle woodsets to the Sawmill
+     - Adds Underbeans, Gloomgourd, and Blisterberry to the Cloche
+  
+  
+### 1.19.2 Supported Mods:
  - Applied Energistics 2:
      - Adds Skystone, Ender Pearl, Certus Quartz, and Fluix crushing to the Crusher
  - Ars Nouveau:
