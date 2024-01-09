@@ -1,0 +1,24 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "undergarden"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:squeezer",
+        "energy": 6400,
+        "fluid": {
+          "amount": 40,
+          "fluid": "immersiveengineering:plant_oil"
+        },
+        "input": {
+          "item": "undergarden:gloomgourd_seeds"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "undergarden"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "undergarden:gloomgourd_seed"
+        },
+        "render": {
+          "type": "stem",
+          "block": "undergarden:gloomgourd_stem"
+        },
+        "results": [
+          {
+            "item": "undergarden:gloomgourd",
+            "count": 1
+          }
+        ],
+        "soil": {
+          "item": "farmersdelight:rich_soil"
+        },
+        "time": 800
+      }
+    }
+  ]
+}
