@@ -11,23 +11,30 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Blue Skies:
      - Adds Bluebright, Starlit, Frostbright, Comet, Lunar, Maple, Dusk, and Crystallized woodsets to the Sawmill
      - Adds Midnight and Crystal sandstone crushing to the Crusher
- -  Botania:
-     - Adds Mystical Flowers to the Cloche
+ - Botania:
+     - Adds Mystical Flowers to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
      - Adds Livingwood and Dreamwood woodsets to the Sawmill
- -  Coffee Delight:
+ - Coffee Delight:
      - Adds Coffee Berries to the Cloche
- -  Deeper & Darker:
+ - Create: Liquid Fuel
+     - Adds Biodiesel, Sulfurized Diesel, Diesel, Kerosene, Naphtha, Benzene, and Gasoline as fuels for the Liquid Burner
+     - Adds Napalm as a superheat fuel for the Liquid Burner
+     - Burn times range from ~11000t for a bucket of low-quality fuels to ~25000t for a bucket of napalm
+ - Deeper & Darker:
      - Adds Echo woodset to the Sawmill 
- -  Eidolon:
+    Eidolon:
      - Adds Illwood woodset to the Sawmill 
- -  Forbidden & Arcanus:
+ - Forbidden & Arcanus:
      - Adds Aurum, Fungyss, and Edelwood woodsets to the Sawmill
      - Adds Soulless Sandstone and Arcane Crystal crushing to the Crusher
      - Adds Arcane Bone Meal to the Cloche
- -  Miner's Delight
+ - Miner's Delight
      - Adds Cave Carrot to the Cloche
  - Nether's Delight:
      - Adds Rich Soul Soil compat to basegame recipes in the Cloche
+ - Pam's Harvestcraft:
+     - Adds crops to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
+     - Adds crops to the Fermenter, courtesy of [RosaryMala](https://github.com/RosaryMala)
  - Undergarden:
      - Adds Wigglewood, Smogstem, and Grongle woodsets to the Sawmill
      - Adds Underbeans, Gloomgourd, and Blisterberry to the Cloche
