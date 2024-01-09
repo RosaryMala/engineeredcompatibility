@@ -15,7 +15,7 @@
         },
         "render": {
           "type": "crop",
-          "block": "undergarden:underbeans"
+          "block": "undergarden:underbean_bush"
         },
         "results": [
           {

@@ -15,7 +15,7 @@
         },
         "render": {
           "type": "crop",
-          "block": "undergarden:blisterberry"
+          "block": "undergarden:blisterberry_bush"
         },
         "results": [
           {

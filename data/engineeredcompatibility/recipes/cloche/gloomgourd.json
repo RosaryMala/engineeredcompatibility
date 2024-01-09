@@ -11,7 +11,7 @@
       "recipe": {
         "type": "immersiveengineering:cloche",
         "input": {
-          "item": "undergarden:gloomgourd_seed"
+          "item": "undergarden:gloomgourd_seeds"
         },
         "render": {
           "type": "stem",
@@ -19,12 +19,11 @@
         },
         "results": [
           {
-            "item": "undergarden:gloomgourd",
-            "count": 1
+            "item": "undergarden:deepsoil"
           }
         ],
         "soil": {
-          "item": "farmersdelight:rich_soil"
+          "item": "undergarden:dirt"
         },
         "time": 800
       }
