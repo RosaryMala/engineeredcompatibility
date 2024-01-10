@@ -1,0 +1,5 @@
+{
+  "fluid": "immersivepetroleum:sulfurized_diesel",
+  "burntime": "14",
+  "amountConsumePerTick" : "1"
+}

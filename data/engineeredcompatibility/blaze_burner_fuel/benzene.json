@@ -1,0 +1,5 @@
+{
+  "fluid": "immersivepetroleum:benzene",
+  "burntime": "13",
+  "amountConsumePerTick" : "1"
+}

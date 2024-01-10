@@ -1,0 +1,6 @@
+{
+  "fluid": "immersivepetroleum:napalm",
+  "burntime": "25",
+  "superHeat": true,
+  "amountConsumePerTick" : "1"
+}
